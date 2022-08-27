@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.getElementsByTagName("html")[0].className += " js";
+  </script>
+  <link rel="stylesheet" href="style_schedule.css">
+  <title>Schedule | Avianshi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
+
+</head>
+<body>
+  <header1>
+    <a href="index.html" class="logo"><img src="images/Logo NoBG.png"></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Schedule</a></li>
+      <li><a href="classes.html">Classes</a><div class="sub-menu-1">
+        <ul>
+          <li><a href="classes.html#primary">Primary</a></li>
+          <li><a href="classes.html#dance">Dance</a></li>
+          <li><a href="classes.html#music">Music</a></li>
+        </ul>
+      </div></li>
+      <li><a href="gallery.html">Gallery</a>
+      <div class="sub-menu-1">
+        <ul>
+          <li><a href="poster.html">Poster</a></li>
+          <li><a href="gallery.html#video">Videos</a></li>
+        </ul>
+      </div></li>
+    </ul>
+  </header1>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var header1 = document.querySelector("header1");
+    header1.classList.toggle("sticky", window.scrollY > 0);
+  })
+  </script>
+  <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+    <div class="cd-schedule__timeline">
+      <ul>
+        <li><span>09:00</span></li>
+        <li><span>09:30</span></li>
+        <li><span>10:00</span></li>
+        <li><span>10:30</span></li>
+        <li><span>11:00</span></li>
+        <li><span>11:30</span></li>
+        <li><span>12:00</span></li>
+        <li><span>12:30</span></li>
+        <li><span>13:00</span></li>
+        <li><span>13:30</span></li>
+        <li><span>14:00</span></li>
+        <li><span>14:30</span></li>
+        <li><span>15:00</span></li>
+        <li><span>15:30</span></li>
+        <li><span>16:00</span></li>
+        <li><span>16:30</span></li>
+        <li><span>17:00</span></li>
+        <li><span>17:30</span></li>
+        <li><span>18:00</span></li>
+      </ul>
+    </div>
+  
+    <div class="cd-schedule__events">
+      <ul>
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Monday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="09:30" data-end="10:30" data-content="pre-primary" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Pre-Primary</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="11:00" data-end="12:30" data-content="Music" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Music</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="14:00" data-end="15:15"  data-content="other-class" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Other Class</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Tuesday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="10:00" data-end="11:00"  data-content="Music" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Music</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="11:30" data-end="13:00"  data-content="dance" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Dance Class</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="13:30" data-end="15:00" data-content="pre-primary" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Pre-Primary</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="15:45" data-end="16:45"  data-content="other-class" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Other Class</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Wednesday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="09:00" data-end="10:15" data-content="dance" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Dance Class</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="10:45" data-end="11:45" data-content="other-class" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Other Class</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="12:00" data-end="13:45"  data-content="Music" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Music</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="13:45" data-end="15:00" data-content="other-class" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Other Class</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Thursday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="09:30" data-end="10:30" data-content="pre-primary" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Pre-Primary</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="12:00" data-end="13:45" data-content="dance" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Dance Class</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="15:30" data-end="16:30" data-content="pre-primary" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Pre-Primary</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="17:00" data-end="18:30"  data-content="Music" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Music</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Friday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="10:00" data-end="11:00"  data-content="Music" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Music</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="12:30" data-end="14:00" data-content="pre-primary" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Pre-Primary</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="15:45" data-end="16:45"  data-content="other-class" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Other Class</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="cd-schedule-modal">
+      <header class="cd-schedule-modal__header">
+        <div class="cd-schedule-modal__content">
+          <span class="cd-schedule-modal__date"></span>
+          <h3 class="cd-schedule-modal__name"></h3>
+        </div>
+  
+        <div class="cd-schedule-modal__header-bg"></div>
+      </header>
+  
+      <div class="cd-schedule-modal__body">
+        <div class="cd-schedule-modal__event-info"></div>
+        <div class="cd-schedule-modal__body-bg"></div>
+      </div>
+  
+      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+    </div>
+  
+    <div class="cd-schedule__cover-layer"></div>
+  </div>
+
+  <script src="util.js"></script> 
+  <script src="main.js"></script>
+<div class="uevent">
+  <h1>Upcoming Events</h1>
+  <p>See our Upcoming Events</p>
+</div>
+  <div class="container1">
+    <div class="card">
+      <div class="event">
+        <h1>No <br> Events</h1>
+      </div>
+      <div class="contentBx">
+        <h2>Date</h2>
+        <div class="venue">
+          <h3>Venue</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="card">
+      <div class="event">
+        <h1>No <br> Events</h1>
+      </div>
+      <div class="contentBx">
+        <h2>Date</h2>
+        <div class="venue">
+          <h3>Venue</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container3">
+    <div class="card">
+      <div class="event">
+        <h1>No <br> Events</h1>
+      </div>
+      <div class="contentBx">
+        <h2>Date</h2>
+        <div class="venue">
+          <h3>Venue</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="contact">
+    <div class="text-content">
+      <div class="resp-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.1758628017496!2d72.5360451!3d23.1640273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c281748038ced%3A0x4a392e1216b3401b!2sAvianshi%20I%20Learning%20and%20Exhibition%20Center!5e0!3m2!1sen!2sin!4v1597990831628!5m2!1sen!2sin" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+    </div>
+
+    <script src="./contact.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+<div class="footer_container">
+<div class="contact-box">
+  <div class="contact-left">
+    <h2 style="text-align: center;">Send your Request/Inquiry</h2>
+    <form action="https://formspree.io/f/mleowgve" method="POST">
+      <div class="input-row">
+        <div class="input-group">
+          <label>Name
+          <input type="text" class="name" name="name" placeholder="Name">
+        </label>
+        </div>
+        <div class="input-group">
+          <label>Phone
+          <input type="text" class="phone" name="phone" placeholder="Phone Number">
+        </label>
+        </div>
+      </div>
+      <div class="input-row">
+        <div class="input-group">
+          <label>Email Id
+          <input type="email" class="email" name="email" placeholder="email@gmail.com">
+        </label>
+        </div>
+        <div class="input-group">
+          <label>Subject
+          <input type="text" class="subject" name="subject" placeholder="Subject">
+        </label>
+        </div>
+      </div>
+      <label>Message</label>
+      <textarea class="message" name="message" rows="5" placeholder="Message or Query"></textarea>
+      <button style="font-size: 12px;" type="submit" class="submit">
+        SEND
+      </button>
+    </form>
+  </div>
+
+  <div class="contact-right">
+    <h2 style="text-align: center;">Reach Us</h2>
+
+    <table>
+      <tr>
+        <td style="font-family: 'Open Sans', sans-serif; font-weight: bold;" >Email</td>
+        <td style="font-family: 'Open Sans', sans-serif;" >avianshi254@gmail.com</td>
+      </tr>
+      <tr>
+        <td style="font-family: 'Open Sans', sans-serif; font-weight: bold;" >Phone</td>
+        <td style="font-family: 'Open Sans', sans-serif;" >+91 820064814<br>
+        +91 7005676394</td>
+      </tr>
+      <tr>
+        <td style="font-family: 'Open Sans', sans-serif; font-weight: bold;" >Address</td>
+        <td style="font-family: 'Open Sans', sans-serif;" >Shop No. 209, Shopper's Plaza<br>
+          Adani Shantigram,<br>
+          Ahmedabad- 370421,<br>
+          Gujarat</td>
+      </tr>
+    </table>
+
+  </div>
+
+</div>
+</div>
+<footer>
+  <div class="social-menu">
+    <ul>
+      <li><a href="https://www.facebook.com/avianshi.avianshi"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCxkAjY8xuRTeHPxunmQkBFQ"><i class="fa fa-youtube"></i></a></li>
+      <li><a href="https://www.instagram.com/avianshi254/?hl=en"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+  </div>
+</footer>
+  </section>
+
+</body>
+</html>

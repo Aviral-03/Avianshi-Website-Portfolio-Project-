@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.getElementsByTagName("html")[0].className += " js";
+  </script>
+  <link rel="stylesheet" href="style_gallery.css">
+  <title>Gallery | Avianshi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo"><img src="images/Logo NoBG.png"></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="classes.html">Classes</a><div class="sub-menu-1">
+        <ul>
+          <li><a href="classes.html#primary">Primary</a></li>
+          <li><a href="classes.html#dance">Dance</a></li>
+          <li><a href="classes.html#music">Music</a></li>
+        </ul>
+      </div></li>
+      <li><a href="#">Gallery</a>
+      <div class="sub-menu-1">
+        <ul>
+          <li><a href="poster.html">Poster</a></li>
+          <li><a href="gallery.html#video">Videos</a></li>
+        </ul>
+      </div></li>
+    </ul>
+  </header>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  })
+  </script>
+    <div class="container">
+      <div class="box a"><img src="images/img1.PNG"></div>
+      <div class="box b"><img src="images/img2.jpg"></div>
+      <div class="box c"><img src="images/img3.jpg"></div>
+      <div class="box d"><img src="images/img4.jpg"></div>
+      <div class="box e"><img src="images/img5.jpg"></div>
+      <div class="box f"><img src="images/img15.jpg"></div>
+      <div class="box g"><img src="images/img13.jpg"></div>
+      <div class="box h"><img src="images/img8.PNG"></div>
+      <div class="box j"><img src="images/img9.jpg"></div>
+      <div class="box k"><img src="images/img10.jpg"></div>
+      <div class="box l"><img src="images/img16.jpg"></div>
+      <div class="box m"><img src="images/img17.jpg"></div>
+      <div class="box n"><img src="images/img18.jpg"></div>
+      <div class="box o"><img src="images/img19.jpg"></div>
+   </div>
+   <div class="container_video" id="video">
+   <div class="a">
+     <iframe width="500" height="300" src="https://www.youtube.com/embed/ck0_jVI1DSQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+   <div class="b">
+     <iframe width="500" height="300" src="https://www.youtube.com/embed/DXif9j0GABA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+     <div class="c">
+     <iframe width="500" height="300" src="https://www.youtube.com/embed/-NXUHQe-N8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
+  
+</body>
+</html>
